@@ -5,7 +5,7 @@ var date = new Date().toString();
 
 var middleware = {
     requireAuth: function(req, res, next) {
-        console.log('private route mon');
+        console.log('private route mon!');
         next();
     },
 
