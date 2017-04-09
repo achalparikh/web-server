@@ -1,4 +1,4 @@
-module.exports =  {
+var middleware  = {
     requireAuth: function(req, res, next) {
         console.log('private route mon!');
         next();
@@ -9,3 +9,4 @@ module.exports =  {
         next();
     }
 }
+module.exports =  middleware;
