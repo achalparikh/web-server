@@ -8,5 +8,5 @@ var middleware  = {
         console.log('Request: ' + req.method + ' ' + req.originalUrl + ' On ' + date);
         next();
     }
-}
+};
 module.exports =  middleware;
